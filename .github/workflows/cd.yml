@@ -2,7 +2,7 @@ name: CD
 on:
   # 以主干的push事件作为触发条件
   push:
-    branches: master
+    branches: main
 jobs:
   CD:
     runs-on: ubuntu-latest
